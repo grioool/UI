@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+    <title>grioool</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="test/script.js">
+    <meta charset="utf-8">
+    <style>
+        .cont {
+            display: flex;
+
+        }
+        a.rollover {
+            background: url(pics/middle.jpeg)  no-repeat;
+            background-size: cover;
+            width: 400px;
+            height: 380px;
+            display: block;
+        }
+        a.rollover:hover {
+            background: url(pics/hhhh.jpeg) no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div id="MainTitleDiv"><a href="">GRIOOOL</a> <span> Fetured by Grigorieva Olga</span></div>
+    <a href=""><img src="pics/menu.png" alt="" class="menu"></a>
+    <a href=""><img src="pics/bag.png" alt="" class="bag"></a>
+</header>
+<main>
+
+
+    <div class="pane" id="pane" hidden="hidden">
+        <link rel="stylesheet" href="test/message.css">
+        <h3>Fashion quote of the day</h3>
+        <p id=quote></p>
+        <button class="remove-button" id="button-remove">[x]</button>
+        <input type="checkbox" id="check">Disable Tips</input>
+        <button class="go-left" id="button-left"><</button>
+        <ul class="tips" id="tip">
+        </ul>
+        <button class="go-right" id="button-right">></button>
+        <script src="test/script.js"></script>
+    </div>
+
+
+    <div id="h1"><h1>New Collection</h1></div>
+    <div class="cont">
+        <img src="pics/left1.jpeg" alt="" class="leftMainImg">
+        <a href="#" class="rollover"> </a>
+        <img src="pics/right1.jpeg" alt="" class="rightMainImg">
+    </div>
+    <div id="h2"><h2>Our customers</h2></div>
+    <img src="pics/clients.png" alt="" class="clientsImg">
+    <div id="logo">
+        <a href=""><img src="pics/Instagram.png" alt="" class="logo"></a>
+        <a href=""><img src="pics/Pinterest.png" alt="" class="logo"></a>
+        <a href=""><img src="pics/Tiktok.png" alt="" class="logo"></a>
+        <a href=""><img src="pics/Whatsapp.png" alt="" class="logo"></a>
+        <a href=""><img src="pics/YouTube.jpeg" alt="" class="logo"></a>
+    </div>
+</main>
+<footer>
+    <div id="contactsLeft"><a href="http://localhost:63342/first/index2.html?_ijt=vjr5ue469dpliprlc770p0b0po">about us</a><br>
+        <a href="http://localhost:63342/first/index5.html?_ijt=hrnn3vd59b7qa7du9gmlqo0uuq">contact us</a>
+    </div>
+    <div id="contactsRight">
+        <a href="http://localhost:63342/first/index3.html?_ijt=re5o21eo5bfre7p050danalj7g">delivery</a><br>
+        <a href="http://localhost:63342/first/index4.html?_ijt=34f0r6k6ul811d1s40vj0bicup">payment</a></div>
+</footer>
+</body>
+
+</html>

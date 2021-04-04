@@ -17,7 +17,7 @@ function initTips() {
 
     let index = 0;
     setIndex(!Number.isNaN(+localStorage.getItem("currentIndex"))
-        ? localStorage.getItem("currentIndex")
+        ? +localStorage.getItem("currentIndex")
         : 0);
 
     document.getElementById("button-remove").onclick = (event) => {

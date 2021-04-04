@@ -16,7 +16,7 @@ function initTips() {
     createNavigationList();
 
     let index = 0;
-    setIndex(Number.isInteger(+localStorage.getItem("currentIndex"))
+    setIndex(!Number.isNaN(+localStorage.getItem("currentIndex"))
         ? localStorage.getItem("currentIndex")
         : 0);
 
